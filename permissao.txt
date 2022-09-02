@@ -1,0 +1,18 @@
+CREATE LOGIN gabriel
+
+WITH PASSWORD = '1234'
+
+CREATE USER
+gabriel FOR LOGIN gabriel
+
+GRANT SELECT TO
+gabriel
+
+--SQL Query
+
+SELECT * FROM
+Classes
+
+INSERT INTO
+Personagens
+VALUES (‘Mutante’)
